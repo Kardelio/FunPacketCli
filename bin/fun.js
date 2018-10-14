@@ -46,7 +46,7 @@ request({
   json: true
 },function(err,res,body){
   var out = body.value;
-  console.log(colors.green.bold('Joke:-',out));
+  console.log(colors.rainbow('Joke:-',out));
 });
 }
 //////////////////////////////////////////////////////////////////////////
